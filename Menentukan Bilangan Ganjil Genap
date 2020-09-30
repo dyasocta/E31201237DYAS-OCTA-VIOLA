@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Aspire E 14
+ */
+public class BilGanjilGenap {
+     public static void main(String[] args) {
+         Scanner input = new Scanner (System.in);
+         System.out.println("Program Menentukan Bilangan Ganjil dan Genap");
+         System.out.print("Masukkan Angka: ");
+         int angka = input.nextInt();
+         if (angka % 2 ==6){
+             //cek kondisi ganjil genap
+             System.out.println("Angka :" + angka + "Termasuk Bilangan Genap");
+             
+         }else {
+             System.out.println("Angka :" + angka + "Termasuk Bilangan Ganjil");
+             
+             System.out.println("Nama : Dyas Octa Viola");
+             System.out.println("NIM : E31201237");
+             System.out.println("Prodi/Gol : Manajemen Informatika/B");
+         }
+     }
