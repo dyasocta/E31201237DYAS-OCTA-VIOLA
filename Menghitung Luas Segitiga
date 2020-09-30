@@ -1,0 +1,14 @@
+public class BufferedReader_LuasSegitiga {
+    public static void main(String[] args) throws IOException {
+        double alas, tinggi, luas;
+        BufferedReader input = new BufferedReader(new InputStreamReader (System.in));
+        System.out.println("Masukkan nilai Alas: ");
+        alas = Double.parseDouble(input.readLine());
+        System.out.println("Masukkan nilai Tinggi: ");
+        tinggi = Double.parseDouble(input.readLine());
+        luas = (alas * tinggi) / 2;
+        System.out.println("Luasnya Adalah : "+luas);
+        
+        System.out.println("Nama : Dyas Octa Viola");
+        System.out.println("NIM : E31201237");
+        System.out.println("Prodi/Gol : Manajemen Informatika/B");  
